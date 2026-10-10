@@ -7,7 +7,15 @@ authors = [
     { name = "Mohamedasif99", email = "mohamedasif98430@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pandera>=0.34.1",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 customer-churn-prediction = "customer_churn_prediction:main"
